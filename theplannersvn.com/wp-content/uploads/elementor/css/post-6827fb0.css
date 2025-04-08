@@ -1,0 +1,19 @@
+.elementor-kit-682{--e-global-color-primary:#461213;--e-global-color-secondary:#2A2A2A;--e-global-color-text:#000000;--e-global-color-4f4ad3a7:#2A2A2A;--e-global-color-5623c7e9:#F7F6EB;--e-global-color-68831f9d:#FFF;--e-global-typography-primary-font-family:"Averta Regular";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Averta Regular";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-weight:500;font-family:"Averta Regular", Sans-serif;font-size:1vw;}.elementor-kit-682 button,.elementor-kit-682 input[type="button"],.elementor-kit-682 input[type="submit"],.elementor-kit-682 .elementor-button{background-color:var( --e-global-color-primary );font-size:0.9vw;font-weight:400;text-transform:uppercase;color:var( --e-global-color-68831f9d );padding:1em 2em 1em 2em;}.elementor-kit-682 e-page-transition{background-color:#FFFFFF;}.elementor-kit-682 a{color:#0051FC;}.elementor-kit-682 h1{font-family:"Canela-Thin", Sans-serif;font-size:3.6vw;line-height:1.3em;}.elementor-kit-682 h2{font-family:"Canela-Thin", Sans-serif;font-size:2.6vw;line-height:1.2em;}.elementor-kit-682 h3{font-family:"Canela-Thin", Sans-serif;font-size:2vw;}.elementor-kit-682 h4{font-family:"Canela-Thin", Sans-serif;font-size:1.6vw;}.elementor-kit-682 h5{font-family:"Averta Regular", Sans-serif;font-size:15px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1400px;}.e-con{--container-max-width:1400px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;}{}h1.entry-title{display:var(--page-title-display);}.site-header{padding-inline-end:0px;padding-inline-start:0px;}.site-footer .site-branding{flex-direction:column;align-items:stretch;}@media(max-width:1024px){.elementor-kit-682{font-size:1.7vw;}.elementor-kit-682 h1{font-size:6vw;}.elementor-kit-682 h2{font-size:4vw;}.elementor-kit-682 h3{font-size:3.4vw;}.elementor-kit-682 button,.elementor-kit-682 input[type="button"],.elementor-kit-682 input[type="submit"],.elementor-kit-682 .elementor-button{font-size:0.9em;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-kit-682{font-size:16px;}.elementor-kit-682 h1{font-size:7.5vw;}.elementor-kit-682 h2{font-size:7.5vw;}.elementor-kit-682 h3{font-size:5vw;}.elementor-kit-682 button,.elementor-kit-682 input[type="button"],.elementor-kit-682 input[type="submit"],.elementor-kit-682 .elementor-button{font-size:14px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */.e-ai-button {
+    display: none;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Averta Regular';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../../2022/02/Averta-Regular.woff2') format('woff2');
+}
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Canela-Thin';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../../2022/02/Canela-Thin.woff2') format('woff2');
+}
+/* End Custom Fonts CSS */
