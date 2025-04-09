@@ -2,24 +2,23 @@ const express = require('express');
 const router = express.Router();
 const Event = require('../models/Event');
 
-// Tạo đơn đặt tiệc mới
+// CHỖ NÀY mới dùng được req
 router.post('/', async (req, res) => {
   try {
+    console.log("📨 Body nhận được:", req.body); // ← đặt ở đây nè
     const newEvent = new Event(req.body);
     const savedEvent = await newEvent.save();
-    res.status(201).json({
-      success: true,
-      message: 'Yêu cầu đặt tiệc đã được gửi thành công',
-      data: savedEvent
-    });
-  } catch (error) {
-    res.status(400).json({
-      success: false,
-      message: 'Lỗi khi gửi yêu cầu đặt tiệc',
-      error: error.message
-    });
+    res.status(201).json({ success: true, data: savedEvent });
+  } catch (err) {
+    console.error('❌ Lỗi lưu event:', err.message);
+    res.status(400).json({ success: false, message: err.message });
   }
 });
+
+module.exports = router;
+
+
+
 
 // Lấy tất cả đơn đặt tiệc
 router.get('/', async (req, res) => {
